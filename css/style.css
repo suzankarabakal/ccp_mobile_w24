@@ -1,68 +1,70 @@
 body{
-    background-color: #054fb9;
-    margin: 10px;
-    font-size: 16pt;
+    background-color: #FDAAB4;
+    margin: 10px;  
 }
+
 h1{
     font-size: 48pt;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
+    color: #41300A;
     padding: 10px;
 }
 
 h2{
     font-size: 32pt;
     font-family: 'Gill Sans MT';
-    color: #ffffff;
+    color: #41300A;
     padding: 10px;
 }
 
 h3{
     font-size: 24pt;
     font-family: 'Gill Sans MT';
-    color: #ffffff;
+    color: #41300A;
     padding: 10px;
 }
 
 p{
     line-height: normal;
     padding-left: 10px;
-    background-color: #8babf1;
-    color: #000000;
+    color: #41300A;
 }
 
 nav{
-    background-color: #8babf1;
+    background-color: #CC4363;
     padding: 10px;
     margin: 10px;
     border-radius: 30px;
-    color:#000000;
+    color:#ffffff;
 }
 
 ul{
     padding: 10px;
-    background-color: #8babf1;
+    background-color: #CC4363;
+}
+
+ol{
+    padding: 10px;
+    margin: 10px;
 }
 
 nav li{
     display: inline;
     padding: 10px;
-    background-color: #8babf1;
+    background-color: #CC4363;
+    font-size: 16pt;
 }
 
 img{
-    border: 5px solid white;
-    border-top-right-radius: 30px;
-    width: 300px;
-    padding: 10px;
-    margin: 20px;
+    border-radius: 30px;
 }
 
 #selected{
-    background-color: #054fb9;
-    color: #ffffff;
+    background-color: #FDAAB4;
+    color: #41300A;
     font-weight: bold;
+    border-radius: 50%;
 }
 
 .skip{
@@ -73,4 +75,172 @@ img{
 
 .skip:focus{
     left:0;
+}
+
+.recipe-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 10px;
+    width: 90%;
+    margin: 5%;
+    justify-content: center;
+}
+
+.recipe-item1 {
+    box-sizing: border-box;
+    grid-column: 1/3;
+    text-align: center;
+    border: 5px dotted white;
+    border-radius: 30px;
+}
+
+.recipe-item2 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.recipe-item3 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.recipe-item4 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.recipe-item5 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.recipe-item6 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.recipe-item7 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.travel-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 10px;
+    width: 90%;
+    margin: 5%;
+    justify-content: center;
+}
+
+.travel-item1 {
+    box-sizing: border-box;
+    grid-column: 1/3;
+    text-align: center;
+    border: 5px dotted white;
+    border-radius: 30px;
+}
+
+.travel-item2 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.travel-item3 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.travel-item4 {
+    box-sizing: border-box;
+    grid-column: 1/3;
+    text-align: center;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.travel-item5 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.travel-item6 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.travel-item7 {
+    box-sizing: border-box;
+    grid-column: 1/3;
+    text-align: center;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.travel-item8 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.travel-item9 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.travel-item10 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.travel-item11 {
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px dotted white;
+    border-radius: 30px;
+    padding: 10px;
 }
